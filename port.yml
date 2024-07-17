@@ -1,0 +1,9 @@
+# enrichService.yml
+
+- identifier: "Notebooks"
+  blueprint: service
+  properties:
+    type: "backend"
+    lifecycle: "Experimental"
+  relations:
+    domain: "payment"
